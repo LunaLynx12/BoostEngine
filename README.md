@@ -6,11 +6,14 @@ BoostEngine is a Python-based optimization tool that utilizes the `psutil` libra
 
 - Optimizes system performance by managing running processes and services.
 - Uses a configuration system based on JSON for easy customization.
+- Uses a minimalistic GUI using `pystray`.
 
 ## Requirements
 
 - Python 3.x
 - `psutil` library (install via `pip install psutil`)
+- `pystray` library (install via `pip install pystray`)
+- `pillow` library (install via `pip install pillow`)
 
 ## Installation
 
@@ -21,7 +24,7 @@ BoostEngine is a Python-based optimization tool that utilizes the `psutil` libra
 
 2. Install the required dependencies:
     ```bash
-    pip install psutil
+    pip install psutil pystray pillow
     ```
 
 ## Usage
