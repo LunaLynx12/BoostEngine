@@ -1,0 +1,18 @@
+{
+    "whitelisted_processes": [
+        "explorer.exe",
+        "powershell.exe",
+        "wininit.exe",
+        "TextInputHost.exe",
+        "SearchFilterHost.exe",
+        "ApplicationFrameHost.exe",
+        "python3.11.exe",
+        "SearchHost.exe",
+        "NisSrv.exe"
+    ],
+    "whitelisted_services": [
+        "wscsvc",
+        "WinDefend",
+        "wuauserv"
+    ]
+}
