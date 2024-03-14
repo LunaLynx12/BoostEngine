@@ -1,14 +1,16 @@
-from __init__ import Logger, Analytics, Config, Donation
+from __init__ import __version__, Logger, Confirmation, Analytics, Config, Donation
 
 # Class instantiation
 logger = Logger()
+confirmation = Confirmation()
 analytics = Analytics()
 config = Config()
 donation = Donation()
 
 
 def main():
-    logger.log("Starting BoostEngine...")
+    logger.log(f"Starting BoostEngine v{__version__} ...")
+    confirmation.ask()
     config.load()
     analytics.scan()
 

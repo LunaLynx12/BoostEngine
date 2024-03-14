@@ -59,4 +59,4 @@ Contributions to BoostEngine are welcome! Here's how you can contribute:
 5. Create a new Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/Cathie02/BoostEngine/main/LICENSE.md) file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](https://raw.githubusercontent.com/Cathie02/BoostEngine/main/LICENSE.md) file for details.

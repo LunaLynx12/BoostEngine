@@ -4,4 +4,11 @@ class Donation:
         self.patreon = "https://www.patreon.com/Cathie02"
 
     def display(self):
-        print("====================================\nIf you like this package, consider donating to the developer.\nYou can join the Discord server or support on Patreon.\nDiscord: https://discord.gg/Cathie02\nPatreon: https://www.patreon.com/Cathie02\n====================================\n")
+        print(
+            "\n==========================================\n"
+            "If you like this project, consider joining\n"
+            "my Discord server or support me on Patreon\n\n"
+            f"  Discord: {self.discord}   \n"
+            f"Patreon: {self.patreon}\n"
+            "==========================================\n"
+        )

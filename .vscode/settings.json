@@ -41,7 +41,7 @@
         "**/cover/": true,
         "**/*.mo": true,
         "**/*.pot": true,
-        "**/*.log": true,
+        "**/*.log": false,
         "**/local_settings.py": true,
         "**/db.sqlite3": true,
         "**/db.sqlite3-journal": true,
