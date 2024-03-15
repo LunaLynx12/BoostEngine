@@ -20,3 +20,9 @@ class Analytics:
 
         logger.log(f"Scanned running processes count: {len(self.running_processes)}")
         logger.log(f"Scanned running services count: {len(self.running_services)}")
+
+    def get_pid(self, process_name):
+        for process in psutil.process_iter(["name", "pid"]):
+            if process.info["name"] == process_name:
+                return process.info["pid"]
+        return None
